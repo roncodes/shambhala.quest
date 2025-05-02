@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shambhala, Inc – Support for Khamar Monastery</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta name="description" content="Shambhala, Inc is a U.S.-based nonprofit organization dedicated to supporting Khamar Monastery in the Gobi Desert of Mongolia." />
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
+
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-700">Shambhala, Inc</h1>
+      <span class="text-sm text-gray-500 hidden sm:inline">www.shambhala.quest</span>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-cover bg-center h-[60vh] text-white flex items-center justify-center" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Khamriin_Khiid_03.jpg/1024px-Khamriin_Khiid_03.jpg');">
+    <div class="bg-black bg-opacity-60 p-6 rounded max-w-xl text-center">
+      <h2 class="text-4xl font-semibold mb-3">Preserving Mongolia’s Sacred Heritage</h2>
+      <p class="text-lg">Shambhala, Inc is a nonprofit dedicated to supporting the restoration and spiritual mission of Khamar Monastery in the Gobi Desert.</p>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <main class="max-w-3xl mx-auto px-6 py-12 space-y-12">
+
+    <section id="about">
+      <h3 class="text-2xl font-bold mb-3">About Shambhala, Inc</h3>
+      <p>
+        Shambhala, Inc is a registered U.S. nonprofit (501(c)(3)) committed to the preservation of spiritual and cultural heritage in Mongolia.
+        Our focus is on <strong>Khamar Monastery</strong>, a historic and sacred site located deep in the Gobi Desert, originally founded by the renowned teacher and poet Danzanravjaa in the 1800s.
+      </p>
+    </section>
+
+    <section id="mission">
+      <h3 class="text-2xl font-bold mb-3">Our Mission</h3>
+      <ul class="list-disc list-inside space-y-2">
+        <li>Support restoration and upkeep of Khamar Monastery.</li>
+        <li>Provide resources to monks and local community members.</li>
+        <li>Facilitate awareness of Mongolia’s spiritual legacy worldwide.</li>
+        <li>Encourage cultural exchange and spiritual learning.</li>
+      </ul>
+    </section>
+
+    <section id="support">
+      <h3 class="text-2xl font-bold mb-3">Support the Monastery</h3>
+      <p class="mb-4">
+        Your donation helps us maintain this vital spiritual center and protect a living piece of Mongolia’s history and culture.
+      </p>
+      <a href="#" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded text-lg font-semibold transition">
+        Donate Now
+      </a>
+    </section>
+
+    <section id="contact">
+      <h3 class="text-2xl font-bold mb-3">Contact</h3>
+      <p>Email us at: <a href="mailto:info@shambhala.quest" class="text-blue-600 hover:underline">info@shambhala.quest</a></p>
+      <p>Website: <a href="https://shambhala.quest" class="text-blue-600 hover:underline" target="_blank">shambhala.quest</a></p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t py-4 text-center text-sm text-gray-500">
+    © <span id="year"></span> Shambhala, Inc. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
